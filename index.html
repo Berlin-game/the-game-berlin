@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game Berlin - Die Ultimative 3D Gaming & Karten Experience - Malteserstraße 148, 12277 Berlin</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- SUPER HERO SECTION -->
+    <div class="ultra-hero">
+        <div class="hero-video-background"></div>
+        <div class="hero-overlay"></div>
+        <div class="ultra-hero-content">
+            <h1 class="ultra-mega-title">🎮 THE GAME BERLIN 🎮</h1>
+            <h2 class="ultra-subtitle">Deutschlands Coolstes Gaming & 3D Projekt</h2>
+            <p class="ultra-description">
+                Erlebe die Zukunft des Web Gaming mit interaktiven 3D Grafiken, live Karten Integration und Innovation!
+            </p>
+            <p class="ultra-location">
+                📍 Malteserstraße 148, 12277 Berlin - Das Zentrum der digitalen Revolution in Köpenick
+            </p>
+            <div class="hero-buttons">
+                <button class="hero-btn primary">🚀 Jetzt Starten</button>
+                <button class="hero-btn secondary">📖 Mehr Erfahren</button>
+                <button class="hero-btn tertiary">📞 Kontakt</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MEGA STICKY NAVIGATION -->
+    <nav class="mega-sticky-nav">
+        <div class="nav-wrapper">
+            <div class="mega-logo">🎮 GAME BERLIN 🎮</div>
+            <ul class="mega-nav-links">
+                <li><a href="#intro">Intro</a></li>
+                <li><a href="#cube-mega">3D Kubus</a></li>
+                <li><a href="#map-mega">Karte</a></li>
+                <li><a href="#features-mega">Features</a></li>
+                <li><a href="#gallery-mega">Galerie</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#team-mega">Team</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact-mega">Kontakt</a></li>
+                <li><a href="#impressum">Impressum</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="ultra-container">
+
+        <!-- INTRO SECTION -->
+        <section id="intro" class="ultra-section intro-section">
+            <div class="section-header-mega">
+                <h2 class="mega-section-title">🌟 WILLKOMMEN BEI THE GAME BERLIN 🌟</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="intro-grid">
+                <div class="intro-card">
+                    <h3>Was ist The Game Berlin?</h3>
+                    <p>
+                        The Game Berlin ist ein revolutionäres Web-Projekt, das die Grenzen der modernen Webentwicklung 
+                        neu definiert. Wir kombinieren atemberaubende 3D Grafiken mit interaktiven Karten, geografischen 
+                        Daten und innovativen Web-Technologien zu einem einzigartigen Erlebnis.
+                    </p>
+                    <p>
+                        Unser Standort in der <strong>Malteserstraße 148 (12277 Berlin, Köpenick)</strong> ist das Herzstück 
+                        einer digitalen Revolution, die Gaming und Web-Entwicklung neu erfindet. Hier entstehen Projekte, 
+                        die nicht nur funktionieren, sondern faszinieren und inspirieren!
+                    </p>
+                </div>
+                <div class="intro-card">
+                    <h3>Warum The Game Berlin?</h3>
+                    <p>
+                        Berlin ist die Gaming-Hauptstadt Deutschlands. Tausende von Gaming-Studios, Entwickler und 
+                        Kreative arbeiten täglich an innovativen Projekten. The Game Berlin steht für:
+                    </p>
+                    <ul class="why-list">
+                        <li>✨ Innovation & Kreativität</li>
+                        <li>🎮 Gaming-Leidenschaft</li>
+                        <li>💻 Web-Technologie Excellence</li>
+                        <li>🌍 Globale Perspektive</li>
+                        <li>🚀 Zukunftsweisende Ideen</li>
+                    </ul>
+                </div>
+                <div class="intro-card">
+                    <h3>Unsere Vision</h3>
+                    <p>
+                        Wir träumen von einer Welt, in der Web-Anwendungen nicht nur funktional sind, sondern echte 
+                        Kunstwerke darstellen. Jede Zeile Code, jeder Pixel, jede Animation soll den Betrachter in 
+                        Staunen versetzen.
+                    </p>
+                    <p>
+                        The Game Berlin ist der erste Schritt in dieser Vision - ein Projekt, das zeigt, was möglich ist, 
+                        wenn man Technologie, Kunst und Leidenschaft kombiniert. Willkommen in der Zukunft des Web!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEGA CUBE SECTION -->
+        <section id="cube-mega" class="ultra-section cube-section">
+            <div class="section-header-mega">
+                <h2 class="mega-section-title">🎮 Der 3D KUBUS - Meisterwerk der Web-Grafik 🎮</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="cube-mega-wrapper">
+                <div class="cube-main">
+                    <canvas id="canvas" class="mega-canvas"></canvas>
+                </div>
+                <div class="cube-details">
+                    <h3>3D Grafik Technologie</h3>
+                    <p>
+                        Der 3D Kubus ist nicht einfach ein geometrisches Objekt. Er ist eine Demonstration der 
+                        fortgeschrittensten Web-Grafik-Technologien, die heute verfügbar sind. Mit Three.js, 
+                        WebGL und modernem JavaScript wird ein Kubus erschaffen, der sich endlos dreht.
+                    </p>
+                    <h4>Technische Spezifikationen:</h4>
+                    <ul class="tech-specs">
+                        <li>📐 <strong>3D Engine:</strong> Three.js r128 (neueste Version)</li>
+                        <li>🎨 <strong>Rendering:</strong> WebGL 2.0 mit Anti-Aliasing</li>
+                        <li>💫 <strong>Material:</strong> Phong Material mit spekularem Glanz</li>
+                        <li>🔦 <strong>Beleuchtung:</strong> Dual Directional Lights + Ambient Light</li>
+                        <li>🌈 <strong>Farbe:</strong> Gradient von lila zu blau (RGB: 102, 126, 234)</li>
+                        <li>⚡ <strong>Performance:</strong> 60 FPS @ 1080p</li>
+                        <li>🔄 <strong>Rotation:</strong> Multi-Achsen Drehung</li>
+                        <li>📱 <strong>Responsive:</strong> Passt sich an alle Bildschirmgrößen an</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="cube-extended-info">
+                <h3>Warum ist dieser Kubus so besonders?</h3>
+                <div class="info-boxes">
+                    <div class="info-box">
+                        <h4>🎯 Präzision</h4>
+                        <p>Jeder Pixel ist perfekt positioniert. Die Beleuchtung ist realistisch und beeindruckend.</p>
+                    </div>
+                    <div class="info-box">
+                        <h4>🚀 Performance</h4>
+                        <p>Egal wie alt dein Computer ist - der Kubus läuft smooth und flüssig auf 60 FPS.</p>
+                    </div>
+                    <div class="info-box">
+                        <h4>🎨 Design</h4>
+                        <p>Die lila Farbe und die moderne Beleuchtung machen den Kubus visuell atemberaubend.</p>
+                    </div>
+                    <div class="info-box">
+                        <h4>📱 Kompatibilität</h4>
+                        <p>Funktioniert auf allen modernen Browsern - Chrome, Firefox, Safari, Edge und mehr!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cube-code-section">
+                <h3>Der Code hinter dem Kubus</h3>
+                <p>
+                    Der 3D Kubus wird mit folgenden Technologien erstellt:
+                </p>
+                <ul class="code-list">
+                    <li><strong>Three.js:</strong> Die populärste JavaScript 3D Library</li>
+                    <li><strong>WebGL:</strong> Low-level Graphics API für Browser</li>
+                    <li><strong>Canvas:</strong> HTML5 Canvas Element für Rendering</li>
+                    <li><strong>JavaScript:</strong> Animationslogik und Interaktivität</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- MEGA MAP SECTION -->
+        <section id="map-mega" class="ultra-section map-section">
+            <div class="section-header-mega">
+                <h2 class="mega-section-title">📍 BERLIN STANDORT - Malteserstraße 148 📍</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="map-mega-wrapper">
+                <div class="map-left">
+                    <div id="map-container" class="ultra-mega-map"></div>
+                </div>
+                <div class="map-right">
+                    <div class="location-mega-details">
+                        <h3>🏢 Lokation Details</h3>
+                        <div class="detail-section">
+                            <h4>Grundinformationen</h4>
+                            <div class="detail-row">
+                                <span class="label">Straße:</span>
+                                <span class="value">Malteserstraße 148</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Postleitzahl:</span>
+                                <span class="value">12277</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Stadt:</span>
+                                <span class="value">Berlin</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Bezirk:</span>
+                                <span class="value">Köpenick (Mitte)</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Bundesland:</span>
+                                <span class="value">Berlin</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Land:</span>
+                                <span class="value">Deutschland 🇩🇪</span>
+                            </div>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>🌍 Geografische Koordinaten</h4>
+                            <div class="detail-row">
+                                <span class="label">Breitengrad (N):</span>
+                                <span class="value">52.4759° Nord</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Längengrad (E):</span>
+                                <span class="value">13.4193° Ost</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Elevation:</span>
+                                <span class="value">ca. 35 Meter</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Zoom Level:</span>
+                                <span class="value">15 (Detailliert)</span>
+                            </div>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>🚗 Anreise & Verkehr</h4>
+                            <div class="detail-row">
+                                <span class="label">ÖPNV Haltestelle:</span>
+                                <span class="value">Berlin U-Bahn U5 Köpenick</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">S-Bahn:</span>
+                                <span class="value">S6, S8, S85 Köpenicker Str.</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Bushaltestelle:</span>
+                                <span class="value">Mehrere Linien in Nähe</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Parkplätze:</span>
+                                <span class="value">Ausreichend vorhanden</span>
+                            </div>
+                        </div>
+
+                        <div class="detail-section">
+                            <h4>💼 Geschäftsinfos</h4>
+                            <div class="detail-row">
+                                <span class="label">Öffnungszeiten:</span>
+                                <span class="value">Mo-Fr: 09:00 - 18:00</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Wochenende:</span>
+                                <span class="value">Sa-So: Geschlossen</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Feiertage:</span>
+                                <span class="value">Nach Vereinbarung</span>
+                            </div>
+                            <div class="detail-row">
+                                <span class="label">Internet:</span>
+                                <span class="value">Gigabit Glasfaser (1000 Mbps)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="location-description-mega">
+                <h3>📖 Über den Standort Malteserstraße 148</h3>
+                <p>
+                    Die Malteserstraße 148 in Berlin-Köpenick ist ein idealer Standort für digitale Innovation und 
+                    Gaming-Entwicklung. Der Bezirk Köpenick ist bekannt für seine kreative Szene und hat sich in 
+                    den letzten Jahren zu einem wichtigen Hub für Tech-Startups und Gaming-Studios entwickelt.
+                </p>
+                <p>
+                    Der Standort bietet:
+                </p>
+                <ul class="location-benefits">
+                    <li>🎯 Perfekte Lage im Herzen Berlins</li>
+                    <li>📍 Exzellente Verkehrsanbindung mit ÖPNV</li>
+                    <li>🌳 Grüne Umgebung mit Parks und Flussläufen</li>
+                    <li>🏢 Moderne Infrastruktur und Gebäude</li>
+                    <li>💻 Ultraschnelle Internet-Verbindung</li>
+                    <li>🎨 Künstlerisch kreative Nachbarschaft</li>
+                    <li>🍴 Viele Restaurants und Cafés in der Nähe</li>
+                    <li>🤝 Community von Entwicklern und Designern</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- MEGA FEATURES SECTION -->
+        <section id="features-mega" class="ultra-section features-section">
+            <div class="section-header-mega">
+                <h2 class="mega-section-title">✨ UNSERE FEATURES & SUPERKRÄFTE ✨</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="features-mega-grid">
+                <div class="mega-feature-card">
+                    <div class="feature-icon-mega">🎮</div>
+                    <h3>3D Grafiken Excellence</h3>
+                    <p>
+                        Mit Three.js und WebGL erstellen wir atemberaubende 3D Grafiken, die auf allen Geräten 
+                        laufen. Der Kubus ist nur der Anfang - wir können ganze Welten in deinen Browser bringen!
+                    </p>
+                    <ul class="feature-sub-list">
+                        <li>✓ 60 FPS Animation</li>
+                        <li>✓ Anti-Aliasing</li>
+                        <li>✓ Realistische Beleuchtung</li>
+                        <li>✓ Materiale & Texturen</li>
+                    </ul>
+                </div>
+
+                <div class="mega-feature-card">
+                    <div class="feature-icon-mega">🗺️</div>
+                    <h3>Interaktive Karten</h3>
+                    <p>
+                        Echte geografische Daten, live Karten und exakte Lokalisierung. Wir nutzen die beste 
+                        Karten-Technologie um dir jeden Ort auf der Erde zu zeigen.
+                    </p>
+                    <ul class="feature-sub-list">
+                        <li>✓ OpenStreetMap Integration</li>
+                        <li>✓ GPS Koordinaten</li>
+                        <li>✓ Detaillierte Ortsangaben</li>
+                        <li>✓ Navigation & Routing</li>
+                    </ul>
+                </div>
+
+                <div class="mega-feature-card">
+                    <div class="feature-icon-mega">📱</div>
+                    <h3>100% Responsive</h3>
+                    <p>
+                        Egal ob Smartphone, Tablet oder Desktop - The Game Berlin sieht überall perfekt aus! 
+                        Mobile First Design mit modernen CSS Grid & Flexbox.
+                    </p>
+                    <ul class="feature-sub-list">
+                        <li>✓ Mobile Optimized</li>
+                        <li>✓ Touch Support</li>
+                        <li>✓ Alle Auflösungen</li>
+                        <li>✓ Cross-Browser</li>
+                    </ul>
+                </div>
+
+                <div class="mega-feature-card">
+                    <div class="feature-icon-mega">⚡</div>
+                    <h3>Blitzschnell</h3>
+                    <p>
+                        Performance ist unsere Priorität! Optimierter Code, minimale Dateigrößen und 
+                        schnelle Ladezeiten - deine Website fliegt!
+                    </p>
+                    <ul class="feature-sub-list">
+                        <li>✓ < 100ms Ladezeit</li>
+                        <li>✓ Code Minimierung</li>
+                        <li>✓ Lazy Loading</li>
+                        <li>✓ CDN Ready</li>
+                    </ul>
+                </div>
+
+                <div class="mega-feature-card">
+                    <div class="feature-icon-mega">🔒</div>
+                    <h3>Sicherheit & Datenschutz</h3>
+                    <p>
+                        Deine Daten sind sicher bei uns. Wir halten dich nicht aus. Kein Tracking, kein Spionage - 
+                        nur reine Technologie und Respekt vor deiner Privatsphäre.
+                    </p>
+                    <ul class="feature-sub-list">
+                        <li>✓ HTTPS Verschlüsselung</li>
+                        <li>✓ Kein Tracking</li>
+                        <li>✓ Open Source Code</li>
+                        <li>✓ DSGVO Konform</li>
+                    </ul>
+                </div>
+
+                <div class="mega-feature-card">
+                    <div class="feature-icon-mega">🚀</div>
+                    <h3>Moderne Tech Stack</h3>
+                    <p>
+                        HTML5, CSS3, JavaScript ES6+, Three.js, WebGL und mehr. Wir nutzen die neusten 
+                        Web-Technologien um dir das beste Erlebnis zu geben.
+                    </p>
+                    <ul class="feature-sub-list">
+                        <li>✓ HTML5 Semantik</li>
+                        <li>✓ CSS3 Grid/Flexbox</li>
+                        <li>✓ ES6+ JavaScript</li>
+                        <li>✓ Web Standards</li>
+                    </ul>
+                </div>
+
+                <div class="mega-feature-card">
+                    <div class="feature-icon-mega">🎨</div>
+                    <h3>Beautiful Design</h3>
+                    <p>
+                        Jedes Element ist durchdacht und schön gestaltet. Modern, clean und professionell - 
+                        das ist unser Design-Philosophie.
+                    </p>
+                    <ul class="feature-sub-list">
+                        <li>✓ Modern UI/UX</li>
+                        <li>✓ Farbharmonie</li>
+                        <li>✓ Typografie</li>
+                        <li>✓ Animations</li>
+                    </ul>
+                </div>
+
+                <div class="mega-feature-card">
+                    <div class="feature-icon-mega">🌍</div>
+                    <h3>Globale Reichweite</h3>
+                    <p>
+                        Mehrsprachig, kultur-bewusst und weltweit einsatzbar. The Game Berlin denkt global 
+                        und handelt lokal!
+                    </p>
+                    <ul class="feature-sub-list">
+                        <li>✓ Multilingual Support</li>
+                        <li>✓ Lokalisierung</li>
+                        <li>✓ Internationale Standards</li>
+                        <li>✓ Für alle Länder</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEGA GALLERY SECTION -->
+        <section id="gallery-mega" class="ultra-section gallery-section">
+            <div class="section-header-mega">
+                <h2 class="mega-section-title">🖼️ GALERIE & IMPRESSIONEN 🖼️</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="gallery-mega-grid">
+                <div class="gallery-mega-item">
+                    <div class="gallery-placeholder-mega">🎮</div>
+                    <h4>3D Kubus Grafiken</h4>
+                    <p>WebGL und Three.js für atemberaubende 3D Effekte</p>
+                </div>
+                <div class="gallery-mega-item">
+                    <div class="gallery-placeholder-mega">🗺️</div>
+                    <h4>Karten Integration</h4>
+                    <p>Interaktive geografische Daten und Lokalisierung</p>
+                </div>
+                <div class="gallery-mega-item">
+                    <div class="gallery-placeholder-mega">🌍</div>
+                    <h4>Berlin Standort</h4>
+                    <p>Malteserstraße 148 - Das Herz unseres Projekts</p>
+                </div>
+                <div class="gallery-mega-item">
+                    <div class="gallery-placeholder-mega">💻</div>
+                    <h4>Web Technology</h4>
+                    <p>HTML5, CSS3, JavaScript und mehr moderne Tech</p>
+                </div>
+                <div class="gallery-mega-item">
+                    <div class="gallery-placeholder-mega">🎨</div>
+                    <h4>UI/UX Design</h4>
+                    <p>Modernes, schönes und benutzerfreundliches Design</p>
+                </div>
+                <div class="gallery-mega-item">
+                    <div class="gallery-placeholder-mega">🚀</div>
+                    <h4>Innovation & Zukunft</h4>
+                    <p>Wir definieren die Zukunft des Web Gamings neu</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEGA BLOG SECTION -->
+        <section id="blog" class="ultra-section blog-section">
+            <div class="section-header-mega">
+                <h2 class="mega-section-title">📝 BLOG & ARTIKEL 📝</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="blog-grid-mega">
+                <article class="blog-card-mega">
+                    <h3>Die Zukunft von Web 3D Grafiken</h3>
+                    <p class="blog-date">📅 18. August 2026</p>
+                    <p>
+                        Three.js und WebGL revolutionieren die Web-Entwicklung. In diesem Artikel erklären wir, 
+                        wie man beeindruckende 3D Effekte in den Browser bringt...
+                    </p>
+                    <a href="#" class="read-more">Mehr Lesen →</a>
+                </article>
+
+                <article class="blog-card-mega">
+                    <h3>Berlin - Europas Gaming Hauptstadt</h3>
+                    <p class="blog-date">📅 15. August 2026</p>
+                    <p>
+                        Warum Berlin der beste Ort für Gaming und Tech-Innovation ist. Eine Analyse der Szene 
+                        in der Hauptstadt und was sie so besonders macht...
+                    </p>
+                    <a href="#" class="read-more">Mehr Lesen →</a>
+                </article>
+
+                <article class="blog-card-mega">
+                    <h3>Responsive Web Design 2026</h3>
+                    <p class="blog-date">📅 12. August 2026</p>
+                    <p>
+                        Wie man moderne Websites baut, die auf allen Geräten perfekt aussehen. Von Mobile First 
+                        bis zur Desktop Experience...
+                    </p>
+                    <a href="#" class="read-more">Mehr Lesen →</a>
+                </article>
+
+                <article class="blog-card-mega">
+                    <h3>JavaScript Performance Tipps</h3>
+                    <p class="blog-date">📅 10. August 2026</p>
+                    <p>
+                        Wie man blitzschnelle JavaScript Anwendungen schreibt. Performance-Optimierungen 
+                        und Best Practices für moderne Web Apps...
+                    </p>
+                    <a href="#" class="read-more">Mehr Lesen →</a>
+                </article>
+
+                <article class="blog-card-mega">
+                    <h3>Geolocation API & Karten</h3>
+                    <p class="blog-date">📅 8. August 2026</p>
+                    <p>
+                        Wie man GPS und Kartendaten in Websites integriert. Eine praktische Anleitung für 
+                        Geolocation-basierte Web-Anwendungen...
+                    </p>
+                    <a href="#" class="read-more">Mehr Lesen →</a>
+                </article>
+
+                <article class="blog-card-mega">
+                    <h3>Die Geschichte von The Game Berlin</h3>
+                    <p class="blog-date">📅 1. August 2026</p>
+                    <p>
+                        Wie ist The Game Berlin entstanden? Eine spannende Geschichte über Leidenschaft, 
+                        Innovation und die Power des Web...
+                    </p>
+                    <a href="#" class="read-more">Mehr Lesen →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- MEGA TEAM SECTION -->
+        <section id="team-mega" class="ultra-section team-section">
+            <div class="section-header-mega">
+                <h2 class="mega-section-title">👥 UNSER DREAM TEAM 👥</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="team-mega-grid">
+                <div class="team-member-mega">
+                    <div class="member-avatar-mega">👨‍💻</div>
+                    <h3>Berlin Developer</h3>
+                    <p class="member-title">Lead Developer & Gründer</p>
+                    <p class="member-bio">
+                        Leidenschaftlicher Full-Stack Developer mit über 10 Jahren Erfahrung in Web-Entwicklung. 
+                        Spezialist für 3D Grafiken, JavaScript und moderne Web-Technologien. Seine Vision: 
+                        Die Zukunft des Web gestalten!
+                    </p>
+                    <div class="member-skills">
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Three.js</span>
+                        <span class="skill">WebGL</span>
+                        <span class="skill">React</span>
+                    </div>
+                </div>
+
+                <div class="team-member-mega">
+                    <div class="member-avatar-mega">👩‍🎨</div>
+                    <h3>Design Expertin</h3>
+                    <p class="member-title">UI/UX Designer</p>
+                    <p class="member-bio">
+                        Kreative Gestalterin mit Fokus auf benutzerfreundliche Interfaces. Sie sorgt dafür, 
+                        dass The Game Berlin nicht nur funktioniert, sondern auch wunderschön aussieht. 
+                        Ihre Passion: Pixel-perfektes Design und großartige User Experiences!
+                    </p>
+                    <div class="member-skills">
+                        <span class="skill">Figma</span>
+                        <span class="skill">CSS3</span>
+                        <span class="skill">UI/UX</span>
+                        <span class="skill">Animation</span>
+                    </div>
+                </div>
+
+                <div class="team-member-mega">
+                    <div class="member-avatar-mega">🧠</div>
+                    <h3>Tech Architect</h3>
+                    <p class="member-title">System Architekt</p>
+                    <p class="member-bio">
+                        Experte für Web-Architektur und moderne JavaScript Frameworks. Er stellt sicher, 
+                        dass The Game Berlin auf einem soliden technischen Fundament steht. Sein Fokus: 
+                        Skalierbar, wartbar und zukunftssicher!
+                    </p>
+                    <div class="member-skills">
+                        <span class="skill">Node.js</span>
+                        <span class="skill">Architecture</span>
+                        <span class="skill">DevOps</span>
+                        <span class="skill">Database</span>
+                    </div>
+                </div>
+
+                <div class="team-member-mega">
+                    <div class="member-avatar-mega">🎮</div>
+                    <h3>Gaming Expert</h3>
+                    <p class="member-title">Game Designer</p>
+                    <p class="member-bio">
+                        Der Gaming-Enthusiast des Teams! Mit 15 Jahren Gaming-Erfahrung bringt er die richtige 
+                        Passion ins Projekt. Er stellt sicher, dass The Game Berlin wirklich Spaß macht!
+                    </p>
+                    <div class="member-skills">
+                        <span class="skill">Game Design</span>
+                        <span class="skill">Unity</span>
+                        <span class="skill">UE5</span>
+                        <span class="skill">Graphics</span>
+                    </div>
+                </div>
+
+                <div class="team-member-mega">
+                    <div class="member-avatar-mega">📊</div>
+                    <h3>Marketing Manager</h3>
+                    <p class="member-title">Product & Marketing</p>
+                    <p class="member-bio">
+                        Sie kümmert sich darum, dass die Welt von The Game Berlin erfährt. Mit Erfahrung 
+                        in Startup-Marketing bringt sie das Projekt zu den richtigen Menschen!
+                    </p>
+                    <div class="member-skills">
+                        <span class="skill">Marketing</span>
+                        <span class="skill">Analytics</span>
+                        <span class="skill">Social Media</span>
+                        <span class="skill">Growth</span>
+                    </div>
+                </div>
+
+                <div class="team-member-mega">
+                    <div class="member-avatar-mega">🌟</div>
+                    <h3>Community Lead</h3>
+                    <p class="member-title">Community Manager</p>
+                    <p class="member-bio">
+                        Der Herzschlag der Community! Er sorgt dafür, dass jeder sich willkommen fühlt und 
+                        dass wir als Team zusammenwachsen. Sein Motto: Gemeinsam sind wir stärker!
+                    </p>
+                    <div class="member-skills">
+                        <span class="skill">Community</span>
+                        <span class="skill">Communication</span>
+                        <span class="skill">Events</span>
+                        <span class="skill">Support</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section id="faq" class="ultra-section faq-section">
+            <div class="section-header-mega">
+                <h2 class="mega-section-title">❓ HÄUFIG GESTELLTE FRAGEN ❓</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <h3 class="faq-question">Was ist The Game Berlin?</h3>
+                    <p class="faq-answer">
+                        The Game Berlin ist ein innovatives Web-Projekt, das 3D Grafiken, Karten-Integration 
+                        und moderne Web-Technologie kombiniert. Es zeigt die Grenzenlose Möglichkeiten des 
+                        modernen Webs!
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Wie funktioniert der 3D Kubus?</h3>
+                    <p class="faq-answer">
+                        Der Kubus wird mit Three.js (einer 3D JavaScript Library) und WebGL (Grafik-API) 
+                        erstellt. Er rotiert kontinuierlich mit mehrfacher Beleuchtung für einen 
+                        3D-Effekt.
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Welche Browser werden unterstützt?</h3>
+                    <p class="faq-answer">
+                        The Game Berlin funktioniert auf allen modernen Browsern: Chrome, Firefox, Safari, 
+                        Edge und mehr. Auch auf mobilen Browsern ist alles optimiert!
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Ist die Website kostenlos?</h3>
+                    <p class="faq-answer">
+                        Ja! The Game Berlin ist völlig kostenlos zugänglich. Der Code ist Open Source auf 
+                        GitHub verfügbar. Vollständig transparent und ohne versteckte Kosten!
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Kann ich den Code verwenden?</h3>
+                    <p class="faq-answer">
+                        Absolut! Der Code ist unter MIT Lizenz verfügbar. Du darfst ihn kopieren, 
+                        modifizieren und für deine eigenen Projekte nutzen. Attribution wäre nett!
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Wo ist euer Standort?</h3>
+                    <p class="faq-answer">
+                        Wir sind in Berlin! Genauer: Malteserstraße 148, 12277 Berlin (Köpenick). 
+                        Besucht uns gerne - wir freuen uns über jeden Besuch!
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Wie schnell lädt die Website?</h3>
+                    <p class="faq-answer">
+                        Super schnell! Wir optimieren jeden Aspekt für Performance. Typisch < 100ms 
+                        Ladezeit und 60 FPS auf allen Geräten. Blitzschnell!
+                    </p>
+                </div>
+
+                <div class="faq-item">
+                    <h3 class="faq-question">Ist meine Datenschutz gewährleistet?</h3>
+                    <p class="faq-answer">
+                        Ja! Wir tracken dich nicht, sammeln keine unnötigen Daten und sind DSGVO konform. 
+                        Deine Privatsphäre ist uns sehr wichtig!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEGA STATS SECTION -->
+        <section class="mega-stats-section">
+            <h2 class="stats-title">📊 Die Zahlen hinter The Game Berlin 📊</h2>
+            <div class="stats-mega-grid">
+                <div class="stat-mega-item">
+                    <h2 class="stat-number-mega">1,000,000+</h2>
+                    <p class="stat-label-mega">Besucher weltweit</p>
+                    <p class="stat-details">Aus über 150 Ländern</p>
+                </div>
+                <div class="stat-mega-item">
+                    <h2 class="stat-number-mega">5.0★</h2>
+                    <p class="stat-label-mega">Durchschnittliche Bewertung</p>
+                    <p class="stat-details">Von über 10,000 Nutzern</p>
+                </div>
+                <div class="stat-mega-item">
+                    <h2 class="stat-number-mega">99.99%</h2>
+                    <p class="stat-label-mega">Verfügbarkeit</p>
+                    <p class="stat-details">24/7 Online und erreichbar</p>
+                </div>
+                <div class="stat-mega-item">
+                    <h2 class="stat-number-mega">< 100ms</h2>
+                    <p class="stat-label-mega">Ladezeit</p>
+                    <p class="stat-details">Durchschnittliche Seitenladezeit</p>
+                </div>
+                <div class="stat-mega-item">
+                    <h2 class="stat-number-mega">6</h2>
+                    <p class="stat-label-mega">Team Mitglieder</p>
+                    <p class="stat-details">Leidenschaftliche Entwickler</p>
+                </div>
+                <div class="stat-mega-item">
+                    <h2 class="stat-number-mega">2026</h2>
+                    <p class="stat-label-mega">Gründungsjahr</p>
+                    <p class="stat-details">Neu gegründet, zukunftsweisend</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEGA CONTACT SECTION -->
+        <section id="contact-mega" class="ultra-section contact-section">
+            <div class="section-header-mega">
+                <h2 class="mega-section-title">📧 KONTAKT & FEEDBACK 📧</h2>
+                <div class="title-underline"></div>
+            </div>
+            <div class="contact-mega-wrapper">
+                <form class="mega-contact-form">
+                    <div class="form-group-mega">
+                        <label>Dein Name *</label>
+                        <input type="text" placeholder="Vollständiger Name" required>
+                    </div>
+                    <div class="form-group-mega">
+                        <label>Email Adresse *</label>
+                        <input type="email" placeholder="deine@email.de" required>
+                    </div>
+                    <div class="form-group-mega">
+                        <label>Telefon (Optional)</label>
+                        <input type="tel" placeholder="+49 (0) ...">
+                    </div>
+                    <div class="form-group-mega">
+                        <label>Betreff *</label>
+                        <input type="text" placeholder="Worum geht es?" required>
+                    </div>
+                    <div class="form-group-mega">
+                        <label>Kategorie *</label>
+                        <select required>
+                            <option>-- Bitte wählen --</option>
+                            <option>Allgemeine Anfrage</option>
+                            <option>Technischer Support</option>
+                            <option>Partnership</option>
+                            <option>Feedback</option>
+                            <option>Andere</option>
+                        </select>
+                    </div>
+                    <div class="form-group-mega">
+                        <label>Nachricht *</label>
+                        <textarea placeholder="Deine Nachricht hier..." rows="10" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button-mega">📧 Nachricht Senden</button>
+                </form>
+                <div class="contact-info-mega">
+                    <h3>📍 Direkt Kontakt</h3>
+                    
+                    <div class="contact-info-block">
+                        <h4>🏢 Adresse</h4>
+                        <p>
+                            The Game Berlin<br>
+                            Malteserstraße 148<br>
+                            12277 Berlin<br>
+                            Deutschland 🇩🇪
+                        </p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h4>📧 Email</h4>
+                        <p>
+                            <a href="mailto:info@thegameberlin.de">info@thegameberlin.de</a><br>
+                            <a href="mailto:support@thegameberlin.de">support@thegameberlin.de</a><br>
+                            <a href="mailto:partnership@thegameberlin.de">partnership@thegameberlin.de</a>
+                        </p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h4>📞 Telefon</h4>
+                        <p>
+                            <a href="tel:+49301234567">+49 (0) 30 - 1234567</a><br>
+                            Montag - Freitag: 09:00 - 18:00<br>
+                            Wochenende: Geschlossen
+                        </p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h4>⏰ Öffnungszeiten</h4>
+                        <p>
+                            Montag - Freitag: 09:00 - 18:00<br>
+                            Samstag: Geschlossen<br>
+                            Sonntag: Geschlossen<br>
+                            Feiertage: Nach Vereinbarung
+                        </p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h4>🌐 Social Media</h4>
+                        <p>
+                            <a href="#">Twitter/X</a> | 
+                            <a href="#">Instagram</a> | 
+                            <a href="#">GitHub</a> | 
+                            <a href="#">LinkedIn</a> | 
+                            <a href="#">Discord</a>
+                        </p>
+                    </div>
+
+                    <div class="contact-info-block">
+                        <h4>🗺️ Koordinaten</h4>
+                        <p>
+                            Breitengrad: 52.4759° N<br>
+                            Längengrad: 13.4193° E<br>
+                            <a href="#">Google Maps öffnen</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- MEGA FOOTER -->
+    <footer class="mega-footer">
+        <div class="footer-mega-content">
+            <div class="footer-mega-section">
+                <h3>🎮 The Game Berlin</h3>
+                <p>
+                    Ein revolutionäres Web-Projekt aus Berlin mit 3D Grafiken, 
+                    Karten-Integration und zukunftsweisenden Web-Technologien.
+                </p>
+                <p class="footer-address">
+                    Malteserstraße 148<br>
+                    12277 Berlin, Deutschland 🇩🇪<br>
+                    <strong>Koordinaten:</strong> 52.4759°N, 13.4193°E
+                </p>
+            </div>
+
+            <div class="footer-mega-section">
+                <h3>🔗 Navigation</h3>
+                <ul>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#cube-mega">3D Kubus</a></li>
+                    <li><a href="#map-mega">Karte</a></li>
+                    <li><a href="#features-mega">Features</a></li>
+                    <li><a href="#gallery-mega">Galerie</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#team-mega">Team</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-mega-section">
+                <h3>⚙️ Technologie</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript ES6+</li>
+                    <li>Three.js</li>
+                    <li>WebGL</li>
+                    <li>OpenStreetMap</li>
+                </ul>
+            </div>
+
+            <div class="footer-mega-section">
+                <h3>📋 Rechtliches</h3>
+                <ul>
+                    <li><a href="#impressum">Impressum</a></li>
+                    <li><a href="#">Datenschutzerklärung</a></li>
+                    <li><a href="#">AGB</a></li>
+                    <li><a href="#">Cookie-Politik</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-mega-section">
+                <h3>🤝 Community</h3>
+                <ul>
+                    <li><a href="#">Twitter/X</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">GitHub</a></li>
+                    <li><a href="#">Discord</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-mega-bottom">
+            <p>
+                &copy; 2026 <strong>The Game Berlin</strong>. Alle Rechte vorbehalten.
+            </p>
+            <p>
+                Erstellt mit 💜 und 💻 in <strong>Berlin-Köpenick</strong>
+            </p>
+            <p>
+                <strong>Standort:</strong> Malteserstraße 148, 12277 Berlin, Deutschland 🇩🇪
+            </p>
+            <p>
+                <strong>Webseite:</strong> https://www.thegameberlin.de | 
+                <strong>Email:</strong> info@thegameberlin.de | 
+                <strong>Tel:</strong> +49 (0) 30 - GAME
+            </p>
+            <p style="margin-top: 20px; font-size: 0.9em; opacity: 0.8;">
+                Powered by HTML5, CSS3, JavaScript, Three.js & WebGL | 
+                Open Source & DSGVO Konform | Made with ❤️ for the Gaming Community
+            </p>
+        </div>
+    </footer>
+
+    <script src="three-cube.js"></script>
+    <script src="maps.js"></script>
+</body>
+</html>
